@@ -1,7 +1,8 @@
+import style from './content.module.css'
 const Content = ()=>{
 
     return(
-        <div>
+        <div className={style.Content}>
             <h6>conteudo</h6>
         </div>
     )

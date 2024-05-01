@@ -1,8 +1,8 @@
 :root{
-  --cinza: #EBEBEC; 
-  --preta: #272727;
-  --rosa: #F06197;
-  --verde: #36859F;
+  --gray: #EBEBEC; 
+  --black: #272727;
+  --pink: #F06197;
+  --green: #36859F;
 }
 
 *{
@@ -11,7 +11,7 @@
 }
 
 body{
-  background:var(--cinza)
+  background:var(--gray)
 }
 
 body, input, textarea, button {

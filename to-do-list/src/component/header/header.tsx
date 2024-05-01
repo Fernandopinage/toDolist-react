@@ -1,13 +1,17 @@
 
+import style from './header.module.css'
 export interface User  {
     name: string
 }
 
-const  Header  = (props:User)=>{
-    const {name} = props;
+const  Header  = ()=>{
+   
     return(
-        <div>
-            <h1>Wecome, {name}</h1>
+        <div className={style.Header}>
+            <h1>
+           ToDo 
+           <span>List</span>
+            </h1>
         </div>
     );
 };
