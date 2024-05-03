@@ -5,9 +5,10 @@ interface User{
 
 const Footer = (props: User)=>{
     const { userName } = props
+    const data = new Date().getFullYear();
     return(
         <div className={style.Footer}>
-            <p>React Básico - 2023 | {userName}</p>
+            <p>React Básico - {data}  | {userName}</p>
         </div>
     )
 }

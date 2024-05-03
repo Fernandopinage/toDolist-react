@@ -1,11 +1,16 @@
-import style from './content.module.css'
-const Content = ()=>{
+import style from './content.module.css';
+import React from 'react';
 
-    return(
-        <div className={style.Content}>
-            <h6>conteudo</h6>
-        </div>
-    )
+interface ContentProps {
+    children: React.ReactNode;
 }
 
-export {Content}
+const Content: React.FC<ContentProps> = ({ children }) => {
+    return (
+        <div className={style.Content}>
+            {children}
+        </div>
+    );
+}
+
+export { Content };

@@ -1,14 +1,17 @@
 import './App.css'
-import { Header } from './component'
+import { Footer, Header } from './component'
 import { Content } from './component/content/content'
-import { Footer } from './component/footer/footer'
+import { Home } from './page'
+
 
 
 function App() {
   return (
     <>
       <Header />
-      <Content />
+      <Content>
+      <Home />
+      </Content>
       <Footer userName='Luiz Fernando'/>
     </>
   )
