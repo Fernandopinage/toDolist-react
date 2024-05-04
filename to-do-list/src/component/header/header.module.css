@@ -1,8 +1,16 @@
 .Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     color: var(--gray);
     background: var(--black);
     font-size: 1rem;
   
+}
+
+.Header a{
+    text-decoration: none;
+    color: var(--gray);
 }
 
 .Header h1 span {

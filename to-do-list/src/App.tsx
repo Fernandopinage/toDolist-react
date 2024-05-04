@@ -1,19 +1,15 @@
+import { BrowserRouter } from 'react-router-dom'
 import './App.css'
-import { Footer, Header } from './component'
-import { Content } from './component/content/content'
-import { Home } from './page'
+
+import { Router } from './router/router'
 
 
 
 function App() {
   return (
-    <>
-      <Header />
-      <Content>
-      <Home />
-      </Content>
-      <Footer userName='Luiz Fernando'/>
-    </>
+    <BrowserRouter>
+      <Router />
+    </BrowserRouter>
   )
 }
 
